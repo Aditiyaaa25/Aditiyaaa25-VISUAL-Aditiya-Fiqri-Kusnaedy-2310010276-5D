@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>918</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>120</y>
+     <width>521</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="iDPelangganLabel">
+      <property name="text">
+       <string>ID Pelanggan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="editID"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="namaPelangganLabel">
+      <property name="text">
+       <string>Nama Pelanggan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="editNama"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="alamatLabel">
+      <property name="text">
+       <string>Alamat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="editAlamat"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="teleponLabel">
+      <property name="text">
+       <string>Telepon</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="editTelepon"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="passwordLabel">
+      <property name="text">
+       <string>Password</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="editPassword"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>300</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SIMPAN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUbah">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>300</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UBAH</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHapus">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>300</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HAPUS</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tabelPelanggan">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>340</y>
+     <width>511</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID Pelanggan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nama Pelanggan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Alamat</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Telepon</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

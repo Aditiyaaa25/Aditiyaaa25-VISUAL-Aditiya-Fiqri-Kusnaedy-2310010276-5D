@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>628</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>511</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="iDTransaksiLabel">
+      <property name="text">
+       <string>ID Transaksi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="editID"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="iDPelangganLabel">
+      <property name="text">
+       <string>ID Pelanggan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="editPelanggan"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="iDUserLabel">
+      <property name="text">
+       <string>ID User</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="editUser"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="tanggalTerimaLabel">
+      <property name="text">
+       <string>Tanggal Terima</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="editTanggal"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnSimpan">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>250</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SIMPAN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnUbah">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>250</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UBAH</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnHapus">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>250</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HAPUS</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tabelTransaksi">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>300</y>
+     <width>511</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID TRANSAKSI</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ID PELANGGAN</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ID USER</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tanggal Terima</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
